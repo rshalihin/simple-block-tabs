@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mrs-block/mrs-tabs-block",
+	"version": "0.1.0",
+	"title": "MRS Tabs Block",
+	"category": "mrs-block",
+	"icon": "table-row-after",
+	"description": "A simple block that displays multiple tabs in a row.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mrs-tabs-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"tabsName": {
+			"type": "string",
+            "default": "tabes"
+		},
+		"tabsTitle": {
+			"type": "array",
+            "default": [
+				{"title" : "Tabs1"},
+				{"title" : "Tabs2"},
+				{"title" : "Tabs3"}
+			]
+		},
+		"tabsContent": {
+			"type": "array",
+            "default": [
+				{"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lobortis diam quis pretium. Vivamus ullamcorper finibus velit sit amet vestibulum. Etiam interdum nibh ut tortor euismod mollis. Integer commodo dictum malesuada. Vestibulum porttitor quis enim eu semper. Etiam efficitur justo lacus, sit amet pretium risus placerat sit amet"},
+				{"content" : "Nulla malesuada lorem ac turpis egestas eleifend vel et massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla rutrum quam eu tempus. Morbi venenatis dui ut dui cursus, ut consectetur lectus blandit. Quisque vulputate accumsan orci. Proin scelerisque augue quis quam congue feugiat."},
+				{"content" : "Integer faucibus odio in auctor facilisis. Fusce luctus magna ipsum, nec iaculis justo blandit nec. Pellentesque eu molestie ex. Duis finibus, est ac ullamcorper efficitur, velit mi ornare lacus, et vehicula est sem et elit. Curabitur odio dolor, faucibus in facilisis non, efficitur in libero. Sed eget magna id elit ullamcorper porta. Phasellus at interdum quam."}
+			]
+		},
+		"tabHorizontal": {
+			"type": "boolean",
+            "default": false
+		}
+	}
+}

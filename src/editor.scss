@@ -1,0 +1,104 @@
+.wp-block-mrs-block-mrs-tabs-block {
+	border: 1px dotted #f00;
+
+	.tab {
+		display: block;
+		box-sizing: border-box;
+
+		&.tab-vertical {
+			display: flex;
+            flex-direction: column;
+
+			.tab-list {
+				padding: 0;
+				display: inline-flex;
+				flex-wrap: wrap;
+				font-size: 18px;
+				margin-bottom: 15px;				
+				background: #3a3a3a;
+
+				li {
+					list-style: none;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					padding: 10px 30px;				
+					background: #3a3a3a;
+					border: 1px solid #3a3a3a;				
+					a {
+						color: #fff;
+						text-decoration: none;
+					}
+
+					&:hover {
+						background: #fff;
+						border-bottom: none;
+						border-top-left-radius: 20px;
+						border-top-right-radius: 20px;
+						a {
+							color: #3a3a3a;
+							text-decoration: none;
+						}
+					}
+					&.active {
+						background: #fff;
+						border-bottom: none;
+						border-top-left-radius: 20px;
+						border-top-right-radius: 20px;
+						a {
+							color: #3a3a3a;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+
+		&.tab-horizontal {
+            display: flex;
+            flex-direction: row;
+
+			.tab-list {
+				padding: 0;
+				display: block;
+				font-size: 18px;				
+				background: #3a3a3a;
+				li {
+					list-style: none;
+					display: block;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					padding: 10px 30px;
+					background: #3a3a3a;
+					border: 1px solid #3a3a3a;
+					border-bottom: 1px solid #7a7a7a;
+					color: #fff;
+					text-decoration: none;
+					width: 160px;
+					border-bottom: 1px solid #7a7a7a;
+
+					&:hover {
+						background: #fff;
+						color: #3a3a3a;
+						border-right: 0;
+						border-top-left-radius: 20px;
+						border-bottom-left-radius: 20px;						
+					}
+					&.active {
+						background: #fff;
+						color: #3a3a3a;
+						border-right: 0;
+						border-top-left-radius: 20px;
+						border-bottom-left-radius: 20px;						
+					}
+				}
+			}
+        }
+
+		.tab-content {
+			display: none;
+		}
+		.active {
+			display: block;
+		}
+	}
+}

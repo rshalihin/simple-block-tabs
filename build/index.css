@@ -1,0 +1,100 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.wp-block-mrs-block-mrs-tabs-block {
+  border: 1px dotted #f00;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab {
+  display: block;
+  box-sizing: border-box;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical {
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list {
+  padding: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  margin-bottom: 15px;
+  background: #3a3a3a;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 10px 30px;
+  background: #3a3a3a;
+  border: 1px solid #3a3a3a;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list li:hover {
+  background: #fff;
+  border-bottom: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list li:hover a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list li.active {
+  background: #fff;
+  border-bottom: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-vertical .tab-list li.active a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-horizontal .tab-list {
+  padding: 0;
+  display: block;
+  font-size: 18px;
+  background: #3a3a3a;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-horizontal .tab-list li {
+  list-style: none;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 10px 30px;
+  background: #3a3a3a;
+  border: 1px solid #3a3a3a;
+  border-bottom: 1px solid #7a7a7a;
+  color: #fff;
+  text-decoration: none;
+  width: 160px;
+  border-bottom: 1px solid #7a7a7a;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-horizontal .tab-list li:hover {
+  background: #fff;
+  color: #3a3a3a;
+  border-right: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab.tab-horizontal .tab-list li.active {
+  background: #fff;
+  color: #3a3a3a;
+  border-right: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab .tab-content {
+  display: none;
+}
+.wp-block-mrs-block-mrs-tabs-block .tab .active {
+  display: block;
+}
+
+/*# sourceMappingURL=index.css.map*/
