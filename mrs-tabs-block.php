@@ -35,8 +35,8 @@ add_action( 'init', 'create_block_mrs_tabs_block_block_init' );
  * @return void
  */
 function mrs_block_mrs_tabs_block_enqueue_assets() {
-	if ( ! is_admin() ) {
-		wp_enqueue_script( 'mrs-block-enqueue-script', plugin_dir_url( __FILE__ ) . 'mrs-tab-script.js', array( 'jquery' ), wp_rand( 1, 100 ), true );
-	}
+
+	wp_enqueue_script( 'mrs-block-enqueue-script', plugin_dir_url( __FILE__ ) . 'mrs-tab-script.js', array( 'jquery' ), wp_rand( 1, 100 ), true );
+
 }
-add_action( 'init', 'mrs_block_mrs_tabs_block_enqueue_assets' );
+add_action( 'wp_enqueue_scripts', 'mrs_block_mrs_tabs_block_enqueue_assets' );

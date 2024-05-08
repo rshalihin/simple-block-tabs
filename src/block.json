@@ -21,25 +21,114 @@
 			"type": "string",
             "default": "tabes"
 		},
+		"mrsActiveId": {
+			"type": "string",
+            "default": "1"
+		},
 		"tabsTitle": {
 			"type": "array",
             "default": [
-				{"title" : "Tabs1"},
-				{"title" : "Tabs2"},
-				{"title" : "Tabs3"}
+				{ "id": "1", "title" : "tab1" },
+				{ "id": "2", "title" : "tab2" },
+				{ "id": "3", "title" : "tab3" }
 			]
 		},
 		"tabsContent": {
 			"type": "array",
             "default": [
-				{"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lobortis diam quis pretium. Vivamus ullamcorper finibus velit sit amet vestibulum. Etiam interdum nibh ut tortor euismod mollis. Integer commodo dictum malesuada. Vestibulum porttitor quis enim eu semper. Etiam efficitur justo lacus, sit amet pretium risus placerat sit amet"},
-				{"content" : "Nulla malesuada lorem ac turpis egestas eleifend vel et massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla rutrum quam eu tempus. Morbi venenatis dui ut dui cursus, ut consectetur lectus blandit. Quisque vulputate accumsan orci. Proin scelerisque augue quis quam congue feugiat."},
-				{"content" : "Integer faucibus odio in auctor facilisis. Fusce luctus magna ipsum, nec iaculis justo blandit nec. Pellentesque eu molestie ex. Duis finibus, est ac ullamcorper efficitur, velit mi ornare lacus, et vehicula est sem et elit. Curabitur odio dolor, faucibus in facilisis non, efficitur in libero. Sed eget magna id elit ullamcorper porta. Phasellus at interdum quam."}
+				{ "id": "1", "title": "", "content" : "" },
+				{ "id": "2", "title": "", "content" : "" },
+				{ "id": "3", "title": "", "content" : "" }
 			]
 		},
 		"tabHorizontal": {
 			"type": "boolean",
             "default": false
+		},
+		"settingsPanelState": {
+			"type": "string",
+			"default": "general"
+		},
+		"tabHeadingTagName":{
+			"type": "string",
+			"default": "h4"
+		},
+		"contentTextAlignment": {
+			"type": "string",
+            "default": "left"
+		},
+		"tabsWidth": {
+			"type": "number",
+            "default": 620
+		},
+		"tabBtnType": {
+			"type": "string",
+            "default": "primary"
+		},
+		"tabBtnTextColor": {
+			"type": "string",
+            "default": "#ffffff"
+		},
+		"tabBtnBgColor": {
+			"type": "string",
+            "default": "#007cba"
+		},
+		"tabBtnHoverTextColor": {
+			"type": "string",
+            "default": "#007cba"
+		},
+		"tabBtnHoverBgColor": {
+			"type": "string",
+            "default": "#ffffff"
+		},
+		"tabBtnActiveTextColor": {
+			"type": "string",
+            "default": "#007cba"
+		},
+		"tabBtnActiveBgColor": {
+			"type": "string",
+            "default": "#ffffff"
+		},
+		"tabContentColors": {
+			"type": "array",
+            "default": [
+				{ "id": "1", "titleColor": "#000000", "textColor": "#000000", "bgColor": "#ffffff" },
+				{ "id": "2", "titleColor": "#000000", "textColor": "#000000", "bgColor": "#ffffff" },
+				{ "id": "3", "titleColor": "#000000", "textColor": "#000000", "bgColor": "#ffffff" }
+			]
+		},
+		"contentBorder": {
+			"type": "boolean",
+            "default": false
+		},
+		"contentBorderObj": {
+			"type": "object",
+			"default": {
+				"color": "#000000",
+				"style": "solid",
+                "width": "1px"
+			}
+		},
+		"contentBorderRadius": {
+			"type": "number",
+            "default": 0
+		},
+		"contentPadding": {
+			"type": "object",
+            "default": {
+				"top": "0px",
+                "right": "0px",
+                "bottom": "0px",
+                "left": "0px"
+			}
+		},
+		"responsiveConditions": {
+			"type": "object",
+			"default": {
+				"desktop": false,
+                "tablet": false,
+                "mobile": false
+			}
 		}
 	}
 }
