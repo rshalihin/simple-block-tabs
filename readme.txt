@@ -1,6 +1,6 @@
 === Mrs Tabs Block ===
-Contributors:      The WordPress Contributors
-Tags:              block
+Contributors:      Md. Readush Shalihin
+Tags:              mrs-tab-block
 Tested up to:      6.1
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
